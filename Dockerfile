@@ -8,7 +8,7 @@ WORKDIR /app
 ARG EXTRAS
 ARG HF_PRECACHE_DIR
 ARG HF_TKN_FILE
-
+123
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         python3 \
